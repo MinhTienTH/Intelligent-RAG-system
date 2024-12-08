@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Chatbot</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      padding: 20px;
+    }
+
+    .auth-container {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      animation: slideIn 0.5s ease;
+    }
+
+    @keyframes slideIn {
+      from { 
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #667eea;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+      font-size: 14px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #eee;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    }
+
+    .links {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .links a {
+      color: #667eea;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .links a:hover {
+      color: #764ba2;
+    }
+
+    .error-message {
+      color: #dc3545;
+      font-size: 14px;
+      margin-top: 5px;
+      display: none;
+    }
+
+    .password-toggle {
+      position: relative;
+    }
+
+    .password-toggle i {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #666;
+    }
+
+    .success-message {
+      background: #d4edda;
+      color: #155724;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="auth-container">
+    <div class="logo">🤖 ChatBot</div>
+    <h1>Welcome Back!</h1>
+    
+    <div class="success-message" id="successMessage"></div>
+    
+    <form id="loginForm" method="POST" onsubmit="handleLogin(event)">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="account">Account</label>
+        <input 
+          type="account" 
+          id="account" 
+          name="account" 
+          required 
+          autocomplete="account"
+          placeholder="Enter your account"
+          oninput = "Check_account()"
+        >
+        <div class="error-message" id="accountError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="password-toggle">
+          <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            required
+            placeholder="Enter your password"
+            oninput="Check_Password()"
+          >
+          <i onclick="togglePassword('password')" id="passwordToggle">👁️</i>
+        </div>
+        <div class="error-message" id="passwordError"></div>
+      </div>
+
+      <button type="submit">Log In</button>
+    </form>
+
+    {% load static %}
+    <div class="links">
+      <a href="{% url 'signup' %}">Create Account</a>
+      <span>|</span>
+      <a href="{% url 'forgot_password' %}">Forgot Password?</a>
+    </div>
+  </div>
+
+  <script>
+    //const homeUrl = "{% url 'index' %}";
+
+    function togglePassword(inputId) {
+      const input = document.getElementById(inputId);
+      input.type = input.type === 'password' ? 'text' : 'password';
+    }
+
+    function Check_account(){
+      const account_checking = document.getElementById('account').value;
+      if (account_checking.length < 8) {
+        showError('accountError', 'Please enter a valid account');
+      } else{
+        clearErrors();
+      }
+    }
+
+    function Check_Password(){
+      const password = document.getElementById('password').value;
+      if (password.length < 8) {
+        showError('passwordError', 'Please enter a valid password');
+      } else{
+        clearErrors();
+      }
+    }
+
+    async function handleLogin(event) {
+        event.preventDefault();
+        clearErrors();
+
+        const account_valid = document.getElementById('account').value.trim();
+        const password = document.getElementById('password').value.trim();
+
+        const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+        // Simple validation
+        if (password.length < 8) {
+          showError('passwordError', 'Password must be at least 8 characters');
+        } else{
+          clearErrors();
+        }
+
+        try {
+            const response = await fetch('/login_auth/', {  // Ensure this URL matches your Django URL configuration
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'X-CSRFToken': csrfToken
+                },
+                body: JSON.stringify({ account: account_valid, password: password }),
+            });
+
+            const data = await response.json()
+
+            if (data.status === 'success') {
+                // Redirect to the login page
+                const successMessage = document.getElementById('successMessage');
+                localStorage.setItem('currentUser', account_valid);
+                successMessage.textContent = 'Account created successfully! Redirecting...';
+                successMessage.style.display = 'block';
+                setTimeout(() => {
+                    window.location.href = "/";
+                }, 2000);
+            } else {
+                showError('passwordError', 'Account or Password is incorrect.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            showError('generalError', 'An error occurred. Please try again.');
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+            const loginForm = document.getElementById('loginForm');
+            console.log('Login form found:', loginForm);  // Verify form is selected
+            
+            if (loginForm) {
+              loginForm.addEventListener('submit', handleLogin);
+            } else {
+                console.error('Login form not found');
+            }
+        });
+
+    function showError(elementId, message) {
+        const errorElement = document.getElementById(elementId);
+        if (errorElement) {
+            errorElement.textContent = message;
+            errorElement.style.display = 'block';
+        }
+    }
+    function clearErrors() {
+        const errorElements = document.getElementsByClassName('error-message');
+        for (let el of errorElements) {
+            el.style.display = 'none';
+            el.textContent = '';
+        }
+    }
+  </script>
+</body>
+</html>

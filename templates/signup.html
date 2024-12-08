@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Chatbot</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+
+        .signup-container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 450px;
+            animation: slideUp 0.5s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #444;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e1e5ee;
+            border-radius: 10px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .password-container {
+            position: relative;
+        }
+
+        .password-toggle {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #666;
+            user-select: none;
+        }
+
+        .password-strength {
+            margin-top: 8px;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .strength-bars {
+            display: flex;
+            gap: 4px;
+        }
+
+        .strength-bar {
+            height: 4px;
+            width: 30px;
+            background: #e1e5ee;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .strength-text {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .weak .strength-bar:nth-child(1) { background: #ff4e42; }
+        .medium .strength-bar:nth-child(1),
+        .medium .strength-bar:nth-child(2) { background: #ffa53d; }
+        .strong .strength-bar { background: #35c635; }
+
+        .requirements {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .requirement {
+            margin-top: 4px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .requirement.valid { color: #35c635; }
+        .requirement.invalid { color: #666; }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #764ba2;
+        }
+
+        .error-message {
+            color: #ff4e42;
+            font-size: 12px;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .success-message {
+            background: #d1fae5;
+            color: #065f46;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="signup-container">
+    <div class="header">
+        <div class="logo">🤖 ChatBot</div>
+        <h1>Create your account</h1>
+        <p class="subtitle">Start chatting with our AI assistant</p>
+    </div>
+
+    <div class="success-message" id="successMessage"></div>
+
+<form id="signupForm" method="POST" onsubmit="handleSignup(event)">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input 
+            type="text" 
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your full name"
+            required
+        >
+        <div class="error-message" id="nameError"></div>
+    </div>
+
+    <div class="form-group">
+        <label for="account">Account</label>
+        <input 
+            type="text" 
+            id="account"
+            name="account"
+            placeholder="Enter your account name"
+            pattern="^[a-zA-Z0-9_]{3,20}$"
+            title="Account name must be 3-20 characters long and can only contain letters, numbers, and underscores"
+            required
+        >
+        <div class="error-message" id="accountError"></div>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input 
+            type="email" 
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+        >
+        <div class="error-message" id="emailError"></div>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <div class="password-container">
+            <input 
+                type="password" 
+                id="password" 
+                placeholder="Create a strong password"
+                required
+                oninput="checkPasswordStrength()"
+            >
+            <span class="password-toggle" onclick="togglePassword('password', this)">Show</span>
+        </div>
+        <div class="password-strength">
+            <div class="strength-bars">
+                <div class="strength-bar"></div>
+                <div class="strength-bar"></div>
+                <div class="strength-bar"></div>
+            </div>
+            <span class="strength-text">Password strength</span>
+        </div>
+        <div class="requirements">
+            <div class="requirement" id="length">• 8+ characters</div>
+            <div class="requirement" id="uppercase">• 1 uppercase letter</div>
+            <div class="requirement" id="lowercase">• 1 lowercase letter</div>
+            <div class="requirement" id="number">• 1 number</div>
+            <div class="requirement" id="special">• 1 special character</div>
+            <div class="requirement" id="similarToAccount"></div>
+        </div>
+        <div class="error-message" id="passwordError"></div>
+    </div>
+
+    <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <div class="password-container">
+            <input 
+                type="password" 
+                id="confirmPassword" 
+                placeholder="Confirm your password"
+                required
+                oninput="Check_MatchPassword()"
+            >
+            <span class="password-toggle" onclick="togglePassword('confirmPassword')">Show</span>
+    </div>
+        <div class="error-message" id="confirmError"></div>
+    </div>
+
+            <button type="submit" class="submit-btn">Create Account</button>
+        </form>
+
+        <div class="footer">
+            Already have an account? <a href="{% url 'login' %}">Log In</a>
+        </div>
+    </div>
+
+    <script>
+        function togglePassword(inputId) {
+            const input = document.getElementById(inputId);
+            const type = input.type === 'password' ? 'text' : 'password';
+            input.type = type;
+            span.textContent = type === "password" ? "Show" : "Hide";
+        }
+
+        function checkPasswordStrength() {
+            const password = document.getElementById('password').value;
+            const account = document.getElementById('account').value;
+            const strengthBars = document.querySelector('.strength-bars');
+            const strengthText = document.querySelector('.strength-text');
+            
+            // Check requirements
+            const requirements = {
+                length: password.length >= 8,
+                uppercase: /[A-Z]/.test(password),
+                lowercase: /[a-z]/.test(password),
+                number: /[0-9]/.test(password),
+                special: /[!@#$%^&*(),.?":{}|<>]/.test(password),
+                similarToAccount: !hasConsecutiveSimilarChars(password, account)
+            };
+
+            // Update requirement indicators
+            Object.keys(requirements).forEach(req => {
+                const element = document.getElementById(req);
+                if (requirements[req]) {
+                    element.classList.add('valid');
+                    element.classList.remove('invalid');
+                } else {
+                    element.classList.add('invalid');
+                    element.classList.remove('valid');
+                }
+            });
+
+            // Calculate strength
+            const strength = Object.values(requirements).filter(Boolean).length;
+
+            // Update strength indicator
+            strengthBars.className = 'strength-bars';
+            if (strength <= 2) {
+                strengthBars.classList.add('weak');
+                strengthText.textContent = 'Weak';
+            } else if (strength <= 5) {
+                strengthBars.classList.add('medium');
+                strengthText.textContent = 'Medium';
+            } else {
+                strengthBars.classList.add('strong');
+                strengthText.textContent = 'Strong';
+            }
+            if (!requirements.similarToAccount) {
+                showError('passwordError', 'Password cannot contain 3 or more consecutive characters from the account name.');
+            } else if (!requirements.length){
+                showError('passwordError', 'Password must have at least 8 characters.');
+            } else if (!requirements.uppercase){
+                showError('passwordError', 'Password must have at least 1 uppercase character.');
+            } else if (!requirements.lowercase){
+                showError('passwordError', 'Password must have at least 1 uppercase character.');
+            } else if (!requirements.number){
+                showError('passwordError', 'Password must have at least 1 number.');
+            } else if (!requirements.special){
+                showError('passwordError', 'Password must have at least 1 special character.');
+            } else {
+                clearErrors(); // Clear previous errors if the password is valid
+            }
+        }
+        function Check_MatchPassword(){
+            password = document.getElementById("password").value;
+            confirmPassword = document.getElementById("confirmPassword").value;
+            if (password!==confirmPassword){
+                showError('confirmError', "Password does not match");
+            } else {
+                clearErrors();
+            }
+        }
+        function showError(elementId, message) {
+            const error = document.getElementById(elementId);
+            error.textContent = message;
+            error.style.display = 'block';
+        }
+
+        function clearErrors() {
+            const errors = document.getElementsByClassName('error-message');
+            for (let error of errors) {
+                error.style.display = 'none';
+            }
+        }
+
+        function hasConsecutiveSimilarChars(password, account) {
+            for (let i = 0; i < account.length - 2; i++) {
+                const substring = account.substring(i, i + 3);
+                if (password.includes(substring)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        // Add these functions to your existing JavaScript in signup.html
+
+        let accountTimeout = null;
+        let emailTimeout = null;
+
+        function checkAccountAvailability() {
+            const accountInput = document.getElementById('account');
+            const accountError = document.getElementById('accountError');
+            
+            // Clear previous timeout
+            if (accountTimeout) {
+                clearTimeout(accountTimeout);
+            }
+
+            // Set new timeout to avoid too many requests
+            accountTimeout = setTimeout(() => {
+                const account = accountInput.value;
+                
+                // Basic validation first
+                if (!account.match(/^[a-zA-Z0-9_]{3,20}$/)) {
+                    accountError.textContent = 'Account must be 3-20 characters and can only contain letters, numbers, and underscores';
+                    accountError.style.display = 'block';
+                    return;
+                }
+
+                // Check availability
+                fetch(`/check_account/?account=${encodeURIComponent(account)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.exists) {
+                            accountError.textContent = 'This account is already taken.';
+                            accountError.style.display = 'block';
+                            accountInput.setCustomValidity('Account already taken.');
+                        } else {
+                            accountError.style.display = 'none';
+                            accountInput.setCustomValidity('');
+                        }
+                    });
+            }, 500); // Wait 500ms after user stops typing
+        }
+
+        function checkEmailAvailability() {
+            const emailInput = document.getElementById('email');
+            const emailError = document.getElementById('emailError');
+            
+            if (emailTimeout) {
+                clearTimeout(emailTimeout);
+            }
+
+            emailTimeout = setTimeout(() => {
+                const email = emailInput.value;
+                
+                // Basic email validation
+                if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+                    emailError.textContent = 'Please enter a valid email address';
+                    emailError.style.display = 'block';
+                    return;
+                }
+
+                fetch(`/check_email/?email=${encodeURIComponent(email)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.exists) {
+                            emailError.textContent = 'This email is already registered.';
+                            emailError.style.display = 'block';
+                        } else {
+                            emailError.textContent = 'Email does not exist.';
+                            emailError.style.display = 'block';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error checking email:', error);
+                        emailError.textContent = 'An error occurred while checking email';
+                        emailError.style.display = 'block';
+                    });
+            }, 500);
+        }
+
+        //const loginUrl = "{% url 'login' %}";
+
+        // Update your form handling
+        async function handleSignup(event) {
+            event.preventDefault(); // Prevent the default form submission
+            clearErrors(); // Clear any previous error messages
+
+            const account = document.getElementById('account').value.trim();
+            const password = document.getElementById('password').value.trim();
+            const confirmPassword = document.getElementById('confirmPassword').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const fullname = document.getElementById('fullname').value.trim();
+
+            const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+            try {
+                const response = await fetch('/signupviews/', {  // Ensure this URL matches your Django URL configuration
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': csrfToken // Include CSRF token in the headers
+                    },
+                    body: JSON.stringify({ 
+                        account: account, 
+                        password: password, 
+                        email: email, 
+                        fullname: fullname 
+                    }),
+                });
+
+                const data = await response.json(); // Parse the JSON response
+
+                if (data.status === 'success') {
+                    // Redirect to the login page
+                    const successMessage = document.getElementById('successMessage');
+                    successMessage.textContent = 'Account created successfully! Redirecting...';
+                    successMessage.style.display = 'block';
+                    setTimeout(() => {
+                        window.location.href = "/login/";
+                    }, 2000);
+                } else if (data.status === 'error') {
+                    if (data.errors) {
+                        // Display specific field errors
+                        Object.keys(data.errors).forEach(field => {
+                            const errorElement = document.getElementById(`${field}Error`);
+                            if (errorElement) {
+                                errorElement.textContent = data.errors[field];
+                                errorElement.style.display = 'block';
+                            }
+                        });
+                    } else {
+                        // Generic error message
+                        showError('generalError', data.message || 'Signup failed');
+                    }
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showError('generalError', 'An error occurred. Please try again.');
+            }
+        }
+        document.getElementById('account').addEventListener('input', checkAccountAvailability);
+        document.getElementById('email').addEventListener('input', checkEmailAvailability);
+        document.addEventListener('DOMContentLoaded', () => {
+            const signupForm = document.getElementById('signupForm');
+            console.log('Signup form found:', signupForm);  // Verify form is selected
+            
+            if (signupForm) {
+                signupForm.addEventListener('submit', handleSignup);
+            } else {
+                console.error('Signup form not found');
+            }
+        });
+
+        function showError(elementId, message) {
+            const errorElement = document.getElementById(elementId);
+            if (errorElement) {
+                errorElement.textContent = message;
+                errorElement.style.display = 'block';
+            }
+        }
+        function clearErrors() {
+            const errorElements = document.getElementsByClassName('error-message');
+            for (let el of errorElements) {
+                el.style.display = 'none';
+                el.textContent = '';
+            }
+        }
+    </script>
+</body>
+</html>

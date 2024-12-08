@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Chatbot</title>
+  <style>
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+    }
+
+    /* Chat Container */
+    .chat-container {
+      max-width: 500px;
+      margin: 20px auto;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      height: 600px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .chat-container:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Header */
+    .chat-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .chat-header .user-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .user-avatar {
+      width: 35px;
+      height: 35px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #764ba2;
+    }
+
+    .logout-button {
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+
+    .logout-button:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    /* Chat Body */
+    .chat-body {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .chat-message {
+      margin: 5px 0;
+      padding: 12px 16px;
+      border-radius: 15px;
+      max-width: 80%;
+      animation: fadeIn 0.3s ease;
+      position: relative;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .user-message {
+      align-self: flex-end;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      border-bottom-right-radius: 5px;
+    }
+
+    .bot-message {
+      align-self: flex-start;
+      background: #fff;
+      color: #333;
+      border-bottom-left-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .timestamp {
+      font-size: 10px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 5px;
+      text-align: right;
+    }
+
+    /* Footer */
+    .chat-footer {
+      display: flex;
+      padding: 20px;
+      background: #fff;
+      border-top: 1px solid #eee;
+      gap: 10px;
+    }
+
+    .chat-footer input {
+      flex: 1;
+      padding: 12px 20px;
+      border: 2px solid #eee;
+      border-radius: 25px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+
+    .chat-footer input:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    .chat-footer button {
+      padding: 12px 24px;
+      border: none;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .chat-footer button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    }
+
+    /* Scrollbar Styling */
+    .chat-body::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .chat-body::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .chat-body::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 3px;
+    }
+
+    .chat-body::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    /* Loading Animation */
+    .typing-indicator {
+      display: flex;
+      gap: 5px;
+      padding: 5px 10px;
+      margin: 5px 0;
+    }
+
+    .typing-dot {
+      width: 8px;
+      height: 8px;
+      background: #667eea;
+      border-radius: 50%;
+      animation: typingAnimation 1.4s infinite;
+    }
+
+    .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes typingAnimation {
+      0%, 60%, 100% { transform: translateY(0); }
+      30% { transform: translateY(-5px); }
+    }
+  </style>
+</head>
+<body>
+<!-- Inside your <body> tag in index.html -->
+<div class="chat-container">
+  <!-- Header Section -->
+  <div class="chat-header">
+    <div class="user-info">
+      <div class="user-avatar" id="userAvatar"></div>
+      <span id="account"></span>
+    </div>
+    <button class="logout-button" onclick="logout()">Logout</button>
+    {% csrf_token %}
+  </div>
+
+    <!-- Chat Body Section -->
+    <div class="chat-body" id="chatBody">
+      <!-- Messages will appear here -->
+    </div>
+
+    <!-- Footer Section -->
+    <div class="chat-footer">
+      <input 
+        type="text" 
+        id="userInput" 
+        placeholder="Type your message..." 
+        onkeypress="handleKeyPress(event)"
+      >
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    {% if response_message %}
+    <div class="response-message">
+        <p>Bot: {{ response_message }}</p>
+    </div>
+    {% endif %}
+  </div>
+
+  <script>
+
+
+    // Function to format timestamp
+    function getFormattedTimestamp() {
+      return new Date().toLocaleTimeString('en-US', {
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      });
+    }
+
+    // Function to handle key press
+    function handleKeyPress(event) {
+      if (event.key === 'Enter') {
+        sendMessage();
+      }
+    }
+
+    // Function to show typing indicator
+    function showTypingIndicator() {
+      const indicator = document.createElement('div');
+      indicator.classList.add('typing-indicator');
+      indicator.innerHTML = `
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+      `;
+      chatBody.appendChild(indicator);
+      chatBody.scrollTop = chatBody.scrollHeight;
+      return indicator;
+    }
+
+    // Function to send a message
+    async function sendMessage() {
+      const userInput = document.getElementById('userInput');
+      const message = userInput.value.trim();
+      
+      const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+      // Early validation
+      if (message === '') {
+        userInput.classList.add('error');
+        setTimeout(() => userInput.classList.remove('error'), 500);
+        return;
+      }
+
+      const chatBody = document.getElementById('chatBody');
+
+      // User message rendering (with existing code)
+      const userMessageDiv = document.createElement('div');
+      userMessageDiv.classList.add('chat-message', 'user-message');
+      userMessageDiv.innerHTML = `
+        ${message}
+        <div class="timestamp">${getFormattedTimestamp()}</div>
+      `;
+      chatBody.appendChild(userMessageDiv);
+
+      // Clear input
+      userInput.value = '';
+
+      // Show typing indicator
+      const indicator = showTypingIndicator();
+
+      try {
+        const response = await fetch('/chat/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': csrfToken
+          },
+          body: JSON.stringify({ 
+            question: message,
+            timestamp: new Date().toISOString()
+          })
+        });
+
+        // Remove typing indicator
+        indicator.remove();
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        // Debug: Log the entire data object
+        console.log('Received data:', data);
+        
+        // Add bot message
+        const botMessageDiv = document.createElement('div');
+        botMessageDiv.classList.add('chat-message', 'bot-message');
+        botMessageDiv.innerHTML = `
+          ${typeof data.response === 'object' 
+            ? JSON.stringify(data.response) 
+            : (data.response || 'No response received.')}
+          <div class="timestamp">${getFormattedTimestamp()}</div>
+        `;
+        chatBody.appendChild(botMessageDiv);
+        chatBody.scrollTop = chatBody.scrollHeight;
+
+      } catch (error) {
+        console.error('Detailed error:', error);
+        
+        const errorMessageDiv = document.createElement('div');
+        errorMessageDiv.classList.add('chat-message', 'bot-message', 'error-message');
+        errorMessageDiv.innerHTML = `
+          🤖 Communication error. Please try again later.
+          <div class="timestamp">${getFormattedTimestamp()}</div>
+        `;
+        chatBody.appendChild(errorMessageDiv);
+        chatBody.scrollTop = chatBody.scrollHeight;
+      }
+    }
+      
+    document.addEventListener('DOMContentLoaded', function () {
+      const currentUser = localStorage.getItem('currentUser');
+      
+      if (currentUser) {
+        document.getElementById('account').textContent = currentUser;
+        document.getElementById('userAvatar').textContent = getInitials(currentUser);
+      } else {
+        // Provide user feedback in the UI
+        document.getElementById('account').textContent = 'Guest';
+        document.getElementById('userAvatar').textContent = 'G'; // Default avatar for guest
+        console.error('User cannot be found');
+      }
+    });
+
+    // Example getInitials function
+    function getInitials(name) {
+      const parts = name.split(' ');
+      return parts.map(part => part.charAt(0).toUpperCase()).join('');
+    }
+
+    function logout() {
+      localStorage.removeItem('currentUser');
+      window.location.href = 'login';
+    }
+  </script>
+</body>
+</html>
