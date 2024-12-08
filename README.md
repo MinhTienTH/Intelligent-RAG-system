@@ -1,6 +1,6 @@
 # ChatBot Authentication System
 
-![ChatBot Logo](path/to/logo.png) <!-- Replace with your logo path -->
+![ChatBot Logo](logo.png) <!-- Replace with your logo path -->
 
 ## Table of Contents
 
