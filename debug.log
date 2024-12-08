@@ -1,0 +1,51 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+"GET /login/ HTTP/1.1" 200 8312
+"GET /login/ HTTP/1.1" 200 8312
+Authentication error: 'WSGIRequest' object has no attribute 'startswith'
+Authentication error: 'WSGIRequest' object has no attribute 'startswith'
+Internal Server Error: /login_auth/
+Internal Server Error: /login_auth/
+"POST /login_auth/ HTTP/1.1" 500 63
+"POST /login_auth/ HTTP/1.1" 500 63
+Internal Server Error: /login_auth/
+Internal Server Error: /login_auth/
+"POST /login_auth/ HTTP/1.1" 500 63
+"POST /login_auth/ HTTP/1.1" 500 63
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+"GET /login/ HTTP/1.1" 200 8312
+"GET /login/ HTTP/1.1" 200 8312
+Authentication error: 'WSGIRequest' object has no attribute 'startswith'
+Authentication error: 'WSGIRequest' object has no attribute 'startswith'
+Internal Server Error: /login_auth/
+Internal Server Error: /login_auth/
+Internal Server Error: /login_auth/
+Internal Server Error: /login_auth/
+"POST /login_auth/ HTTP/1.1" 500 63
+"POST /login_auth/ HTTP/1.1" 500 63
+"POST /login_auth/ HTTP/1.1" 500 63
+"POST /login_auth/ HTTP/1.1" 500 63
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Using selector: KqueueSelector

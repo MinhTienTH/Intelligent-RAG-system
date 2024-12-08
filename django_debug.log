@@ -1,0 +1,1726 @@
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Not Found: /index/
+Not Found: /index/
+Not Found: /index/
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Request content type: application/json
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request content type: application/json
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Not Found: /index/
+Not Found: /index/
+Not Found: /index/
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Not Found: /index/
+Not Found: /index/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Not Found: /index/
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Tien@01214965424'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Tien@01214965424'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Request content type: application/json
+Request content type: application/json
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+User tiennhone2608 accessed index view.
+User tiennhone2608 accessed index view.
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+User tiennhone2608 accessed index view.
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+User tiennhone2608 accessed index view.
+User tiennhone2608 accessed index view.
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Not Found: /favicon.ico
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin@gmail.com', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin@gmail.com', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Ti@01214965424'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Raw request body: {"account":"tiennho260830033","password":"Tin@01214965424","email":"tiendeptrai1233003@gmail.com","fullname":"Tien Nguyen"}
+Raw request body: {"account":"tiennho260830033","password":"Tin@01214965424","email":"tiendeptrai1233003@gmail.com","fullname":"Tien Nguyen"}
+Received data: {'account': 'tiennho260830033', 'password': 'Tin@01214965424', 'email': 'tiendeptrai1233003@gmail.com', 'fullname': 'Tien Nguyen'}
+Received data: {'account': 'tiennho260830033', 'password': 'Tin@01214965424', 'email': 'tiendeptrai1233003@gmail.com', 'fullname': 'Tien Nguyen'}
+Error creating user: duplicate key value violates unique constraint "auth_user_username_key"
+DETAIL:  Key (username)=(tiennho260830033) already exists.
+
+Internal Server Error: /signupviews/
+Raw request body: {"account":"ddddadad2002","password":"Ti@01214965424","email":"tiendeptrai12330035@gmail.com","fullname":"Tien Nguyen"}
+Raw request body: {"account":"ddddadad2002","password":"Ti@01214965424","email":"tiendeptrai12330035@gmail.com","fullname":"Tien Nguyen"}
+Received data: {'account': 'ddddadad2002', 'password': 'Ti@01214965424', 'email': 'tiendeptrai12330035@gmail.com', 'fullname': 'Tien Nguyen'}
+Received data: {'account': 'ddddadad2002', 'password': 'Ti@01214965424', 'email': 'tiendeptrai12330035@gmail.com', 'fullname': 'Tien Nguyen'}
+Error creating user: duplicate key value violates unique constraint "auth_user_username_key"
+DETAIL:  Key (username)=(ddddadad2002) already exists.
+
+Internal Server Error: /signupviews/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Ti@01214965424'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Ti@01214965424'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+Parsed request data: {'account_email': 'admin', 'password': 'Tien@01214965424'}
+User admin logged in successfully.
+User admin logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Not Found: /favicon.ico
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account_email': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hello
+Starting new HTTP connection (1): localhost:11434
+Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x17a5fc4a0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/adapters.py", line 589, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x17a5fc4a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py", line 110, in chat_response
+    bot_response = chain.invoke({"user_message":user_message})
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3024, in invoke
+    input = context.run(step.invoke, input, config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 390, in invoke
+    self.generate_prompt(
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 755, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 950, in generate
+    output = self._generate_helper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 792, in _generate_helper
+    raise e
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 779, in _generate_helper
+    self._generate(
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 437, in _generate
+    final_chunk = super()._stream_with_aggregation(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 349, in _stream_with_aggregation
+    for stream_resp in self._create_generate_stream(prompt, stop, **kwargs):
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 194, in _create_generate_stream
+    yield from self._create_stream(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 252, in _create_stream
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/adapters.py", line 622, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x17a5fc4a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hello
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hello
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Not Found: /favicon.ico
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Not Found: /login/{
+Not Found: /login/{
+Not Found: /login/{
+Not Found: /favicon.ico
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Raw request body: {"account":"tienabc26082002","password":"Ti@01214965424","email":"20522010@gm.uit.edu.vn","fullname":"Tien Nguyen"}
+Raw request body: {"account":"tienabc26082002","password":"Ti@01214965424","email":"20522010@gm.uit.edu.vn","fullname":"Tien Nguyen"}
+Received data: {'account': 'tienabc26082002', 'password': 'Ti@01214965424', 'email': '20522010@gm.uit.edu.vn', 'fullname': 'Tien Nguyen'}
+Received data: {'account': 'tienabc26082002', 'password': 'Ti@01214965424', 'email': '20522010@gm.uit.edu.vn', 'fullname': 'Tien Nguyen'}
+Error creating user: duplicate key value violates unique constraint "auth_user_username_key"
+DETAIL:  Key (username)=(tienabc26082002) already exists.
+
+Internal Server Error: /signupviews/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@01214965424'}
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@01214965424'}
+User tienabc26082002 logged in successfully.
+User tienabc26082002 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: hello
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+Not Found: /verifyOtp/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Not Found: /favicon.ico
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Error sending email: SMTP.starttls() got an unexpected keyword argument 'keyfile'
+Using selector: KqueueSelector
+Using selector: KqueueSelector
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/aichatbot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 617437
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 679546
+Internal Server Error: /verifyOtp/
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view qa_auto.views.check_otp didn't return an HttpResponse object. It returned None instead.
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Not Found: /favicon.ico
+OTP sent to 20522010@gm.uit.edu.vn: 720053
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 164868
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 352125
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 589873
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 697283
+OTP sent to 20522010@gm.uit.edu.vn: 534051
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 123793
+OTP sent to 20522010@gm.uit.edu.vn: 272892
+OTP sent to 20522010@gm.uit.edu.vn: 172949
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 416695
+Internal Server Error: /verifyOtp/
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py", line 218, in check_otp
+    otp_stored = request.session.get('otp').strip()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 605141
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 675799
+OTP sent to 20522010@gm.uit.edu.vn: 277406
+OTP sent to 20522010@gm.uit.edu.vn: 692608
+OTP sent to 20522010@gm.uit.edu.vn: 443512
+OTP sent to 20522010@gm.uit.edu.vn: 784259
+OTP sent to 20522010@gm.uit.edu.vn: 781106
+OTP sent to 20522010@gm.uit.edu.vn: 776665
+OTP sent to 20522010@gm.uit.edu.vn: 633998
+OTP sent to 20522010@gm.uit.edu.vn: 171153
+OTP sent to 20522010@gm.uit.edu.vn: 970313
+OTP sent to 20522010@gm.uit.edu.vn: 892571
+OTP sent to 20522010@gm.uit.edu.vn: 804783
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+OTP sent to 20522010@gm.uit.edu.vn: 533375
+OTP sent to 20522010@gm.uit.edu.vn: 465897
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 150883
+OTP sent to 20522010@gm.uit.edu.vn: 198457
+OTP sent to 20522010@gm.uit.edu.vn: 497610
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Not Found: /favicon.ico
+OTP sent to 20522010@gm.uit.edu.vn: 156521
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+OTP sent to 20522010@gm.uit.edu.vn: 731238
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 419987
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 126660
+Error checking valid user: User matching query does not exist.
+Error checking valid user: User matching query does not exist.
+Internal Server Error: /reset_password/
+Internal Server Error: /reset_password/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Bad Request: /reset_password/
+Bad Request: /reset_password/
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+OTP sent to 20522010@gm.uit.edu.vn: 751063
+Bad Request: /reset_password/
+Bad Request: /reset_password/
+Bad Request: /reset_password/
+Bad Request: /reset_password/
+Bad Request: /reset_password/
+Bad Request: /reset_password/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Bad Request: /reset_password/
+Bad Request: /reset_password/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+User with email  does not exist.
+User with email  does not exist.
+Not Found: /reset_password/
+Not Found: /reset_password/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+OTP sent to 20522010@gm.uit.edu.vn: 102371
+User with email  does not exist.
+User with email  does not exist.
+Not Found: /reset_password/
+Not Found: /reset_password/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 159482
+User with email  does not exist.
+User with email  does not exist.
+Not Found: /reset_password/
+Not Found: /reset_password/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 535604
+User with email  does not exist.
+User with email  does not exist.
+Not Found: /reset_password/
+Not Found: /reset_password/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Email received for password reset: 
+Email received for password reset: 
+User with email  does not exist.
+User with email  does not exist.
+Not Found: /reset_password/
+Not Found: /reset_password/
+OTP sent to 20522010@gm.uit.edu.vn: 429267
+Email received for password reset: 
+Email received for password reset: 
+User with email  does not exist.
+User with email  does not exist.
+Not Found: /reset_password/
+Not Found: /reset_password/
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+OTP sent to 20522010@gm.uit.edu.vn: 785455
+Email received for password reset: 
+Email received for password reset: 
+User with email  does not exist.
+User with email  does not exist.
+Not Found: /reset_password/
+Not Found: /reset_password/
+OTP sent to 20522010@gm.uit.edu.vn: 919726
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/urls.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 533604
+Not Found: /reset_password_view/
+Not Found: /reset_password_view/
+OTP sent to 20522010@gm.uit.edu.vn: 602832
+Not Found: /reset_password_view/
+Not Found: /reset_password_view/
+OTP sent to 20522010@gm.uit.edu.vn: 277529
+Email received for password reset: 
+User with email  does not exist.
+Not Found: /reset_password/submit/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 556418
+Email received for password reset: 
+new_password received for password reset: Ti@10012002
+confirm_password received for password reset: Ti@10012002
+User with email  does not exist.
+Not Found: /reset_password/submit/
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+OTP sent to 20522010@gm.uit.edu.vn: 999703
+Email received for password reset: 
+new_password received for password reset: Ti@10012002
+confirm_password received for password reset: Ti@10012002
+User with email  does not exist.
+Not Found: /reset_password/submit/
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+OTP sent to 20522010@gm.uit.edu.vn: 301212
+Email received for password reset: 20522010@gm.uit.edu.vn
+new_password received for password reset: Ti@10012002
+confirm_password received for password reset: Ti@10012002
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+Parsed request data: {'account': 'tiennhone2608', 'password': 'Ti@01214965424'}
+User tiennhone2608 logged in successfully.
+User tiennhone2608 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tienabc26082002', 'password': 'tiennnnnn'}
+Parsed request data: {'account': 'tienabc26082002', 'password': 'tiennnnnn'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tienabc26082002', 'password': 'tiennnnnn'}
+Parsed request data: {'account': 'tienabc26082002', 'password': 'tiennnnnn'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@100120023'}
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@100120023'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@10012002'}
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@10012002'}
+User tienabc26082002 logged in successfully.
+User tienabc26082002 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': '1222222222'}
+Parsed request data: {'account': 'tiennhone2608', 'password': '1222222222'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Not Found: /login_auth/
+Not Found: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': '22222222222222222222'}
+Not Found: /login_auth/
+Not Found: /login_auth/
+Not Found: /login_auth/
+Not Found: /login_auth/
+Not Found: /login_auth/
+Not Found: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tiennhone2608', 'password': '22222222222222222'}
+Parsed request data: {'account': 'tiennhone2608', 'password': '22222222222222222'}
+Unauthorized: /login_auth/
+Unauthorized: /login_auth/
+Not Found: /api/check-email
+Raw request body: {"account":"tienabc260820023","password":"Ti@01214965424","email":"tiendeptrai124443@gmail.com","fullname":"Tien Nguyen"}
+Raw request body: {"account":"tienabc260820023","password":"Ti@01214965424","email":"tiendeptrai124443@gmail.com","fullname":"Tien Nguyen"}
+Received data: {'account': 'tienabc260820023', 'password': 'Ti@01214965424', 'email': 'tiendeptrai124443@gmail.com', 'fullname': 'Tien Nguyen'}
+Received data: {'account': 'tienabc260820023', 'password': 'Ti@01214965424', 'email': 'tiendeptrai124443@gmail.com', 'fullname': 'Tien Nguyen'}
+Error creating user: duplicate key value violates unique constraint "auth_user_username_key"
+DETAIL:  Key (username)=(tienabc260820023) already exists.
+
+Internal Server Error: /signupviews/
+OTP sent to 20522010@gm.uit.edu.vn: 212110
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Not Found: /favicon.ico
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Request method: POST
+Parsed request data: {'account': 'tiendeptrai123_22@gmail.com', 'password': 'Ti@01214965424'}
+Not Found: /login_auth/
+Not Found: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': '20522010@gm.uit.edu.vn', 'password': 'Ti@01214965424'}
+Parsed request data: {'account': '20522010@gm.uit.edu.vn', 'password': 'Ti@01214965424'}
+Not Found: /login_auth/
+Not Found: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': '20522010@gm.uit.edu.vn', 'password': 'Ti@10012002'}
+Parsed request data: {'account': '20522010@gm.uit.edu.vn', 'password': 'Ti@10012002'}
+Not Found: /login_auth/
+Not Found: /login_auth/
+Request method: POST
+Request method: POST
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@10012002'}
+Parsed request data: {'account': 'tienabc26082002', 'password': 'Ti@10012002'}
+User tienabc26082002 logged in successfully.
+User tienabc26082002 logged in successfully.
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hi. Are you there?
+Starting new HTTP connection (1): localhost:11434
+Internal Server Error: /chat/
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 1085, in _send_output
+    self.send(msg)
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 1029, in send
+    self.connect()
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x177eceab0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/adapters.py", line 589, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x177eceab0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py", line 113, in chat_response
+    bot_response = chain.invoke({"user_message":user_message})
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3024, in invoke
+    input = context.run(step.invoke, input, config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 390, in invoke
+    self.generate_prompt(
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 755, in generate_prompt
+    return self.generate(prompt_strings, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 950, in generate
+    output = self._generate_helper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 792, in _generate_helper
+    raise e
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/llms.py", line 779, in _generate_helper
+    self._generate(
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 437, in _generate
+    final_chunk = super()._stream_with_aggregation(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 349, in _stream_with_aggregation
+    for stream_resp in self._create_generate_stream(prompt, stop, **kwargs):
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 194, in _create_generate_stream
+    yield from self._create_stream(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/langchain_community/llms/ollama.py", line 252, in _create_stream
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/requests/adapters.py", line 622, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x177eceab0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hi. Are you there?
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: hi
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hi
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received message: Hi
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hi
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+/Users/nguyenminhtien/Documents/Visual Code/AI Engineer/BackEnd/qa_auto/views.py changed, reloading.
+Watching for file changes with StatReloader
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+load_ssl_context verify=True cert=None trust_env=True http2=False
+load_verify_locations cafile='/opt/anaconda3/lib/python3.12/site-packages/certifi/cacert.pem'
+Received request from 127.0.0.1 for index view.
+Successfully rendered index.html
+Received message: Hi
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+Received message: I love coffee. Do you know Phuc Long Coffee?
+Starting new HTTP connection (1): localhost:11434
+http://localhost:11434 "POST /api/generate HTTP/11" 200 None
