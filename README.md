@@ -57,7 +57,6 @@ Follow these steps to set up the project locally:
 
    ```bash
    git clone https://github.com/MinhTienTH/Intelligent-RAG-system.git
-   cd chatbot-authentication
    ```
 
 2. **Create a Virtual Environment:**
