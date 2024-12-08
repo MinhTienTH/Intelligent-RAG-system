@@ -188,7 +188,7 @@ For any inquiries or support, please contact:
 
 - **Your Name**
 - **Email:** tiennm26082002@gmail.com
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/tiennguyen2608/)
+- **LinkedIn:** (https://www.linkedin.com/in/tiennguyen2608/)
 
 ---
 
